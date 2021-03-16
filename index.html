@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="Russian">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="wrapper">
+                <a onclick="reload()" href=""><img class="header__logo" src="images/header__logo.png" alt=""></a>
+                <div id="header__navigation" class="header__navigation">
+                    <a id="header-btn-1" class="navigation" href="">Главная</a>
+                    <a id="header-btn-2" class="navigation" href="">Наши проекты</a>
+                    <a id="header-btn-3" class="navigation" href="">Поддержка</a>
+                    <a id="header-btn-4" class="navigation" href="">Правила</a>
+                    <button class="header__btn" onclick="headerBtn()"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+            <div class="title">
+                <div class="title__text">
+                    <h3 class="title__text-suptitle">РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h3>
+                    <h4 class="title__text-subtitle">стадионы, газопроводы, мосты, дамбы</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="numbers">
+        <div class="numbers__inner">
+            <div class="number__item">
+                <div class="number__item--input-1">26</div>
+                <div class="number__item--input-2">лет</div>
+                <div class="number__item--input-3">на рынке</div>
+            </div>
+            <div class="number__item">
+                <div class="number__item--input-1">26</div>
+                <div class="number__item--input-2">лет</div>
+                <div class="number__item--input-3">на рынке</div>
+            </div>
+            <div class="number__item">
+                <div class="number__item--input-1">26</div>
+                <div class="number__item--input-2">лет</div>
+                <div class="number__item--input-3">на рынке</div>
+            </div>
+            <div class="number__item">
+                <div class="number__item--input-1">26</div>
+                <div class="number__item--input-2">лет</div>
+                <div class="number__item--input-3">на рынке</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="container">
+            <div class="projects__title-text">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</div>
+            <div class="projects__inner">
+                <div class="projects__block">
+                    <img class="projects__block--img" src="images/projects__img.jpg" alt="">
+                    <div class="projects__block--item"></div>
+                    <div class="projects__block--text">
+                        <div class="projects__block--title-text">Газпром Арена</div>
+                        <div class="projects__block--subtitle-text">Мы сделали самую красивую арену в Европе. Это
+                            открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады
+                            данному еву.</div>
+                    </div>
+                </div>
+                <div class="projects__block">
+                    <img class="projects__block--img" src="images/projects__img.jpg" alt="">
+                    <div class="projects__block--item"></div>
+                    <div class="projects__block--text">
+                        <div class="projects__block--title-text">Газпром Арена</div>
+                        <div class="projects__block--subtitle-text">Мы сделали самую красивую арену в Европе. Это
+                            открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады
+                            данному еву.</div>
+                    </div>
+                </div>
+                <div class="projects__block">
+                    <img class="projects__block--img" src="images/projects__img.jpg" alt="">
+                    <div class="projects__block--item"></div>
+                    <div class="projects__block--text">
+                        <div class="projects__block--title-text">Газпром Арена</div>
+                        <div class="projects__block--subtitle-text">Мы сделали самую красивую арену в Европе. Это
+                            открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады
+                            данному еву.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="smart-projects">
+        <div class="container">
+            <div class="smart-projects__inner">
+                <div class="smart-projects__text">
+                    <h3 class="smart-projects__title-text">САМЫЕ УМНЫЕ ПРОЕКТЫ</h3>
+                    <h4 class="smart-projects__subtitle-text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</h4>
+                </div>
+                    <button class="smart-projects__btn" data-fancybox data-src="#modal" href="javascript:;">
+                        <div class="smart-projects__btn--item fas fa-envelope"></div>
+                        <div class="smart-projects__btn--text">ВАШ ЗАПРОС</div>
+                    </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="job">
+        <div class="container">
+            <h4 class="job__title-text">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h4>
+            <div class="job__inner">
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+            </div>
+            <div class="job__inner">
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+                <div class="job__block">
+                    <div class="job__block--item far fa-city"></div>
+                    <div class="job__block--text">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="images">
+        <div class="images__inner">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+        </div>
+        <div class="images__inner">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+            <img class="images__images" src="images/images__block.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="answer-q">
+        <div class="container">
+            <div class="answer-q__title-text">ОТВЕТЫ НА ВОПРОСЫ</div>
+
+            <button onclick="answer_1()" class="answer-q__btn">
+                <div id="answer-1" class="answer-q__btn--item fas fa-caret-right"></div>
+                <div class="answer-q__btn--text">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</div>
+            </button>
+            <div id="answer-1_text" class="answer-q__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                используя Lorem Ipsum для распечатки образцов. </div>
+
+            <button onclick="answer_2()" class="answer-q__btn">
+                <div id="answer-2" class="answer-q__btn--item fas fa-caret-right"></div>
+                <div class="answer-q__btn--text">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</div>
+            </button>
+            <div id="answer-2_text" class="answer-q__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                используя Lorem Ipsum для распечатки образцов. </div>
+
+            <button onclick="answer_3()" class="answer-q__btn">
+                <div id="answer-3" class="answer-q__btn--item fas fa-caret-right"></div>
+                <div class="answer-q__btn--text">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</div>
+            </button>
+            <div id="answer-3_text" class="answer-q__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                используя Lorem Ipsum для распечатки образцов. </div>
+
+            <button onclick="answer_4()" class="answer-q__btn">
+                <div id="answer-4" class="answer-q__btn--item fas fa-caret-right"></div>
+                <div class="answer-q__btn--text">РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</div>
+            </button>
+            <div id="answer-4_text" class="answer-q__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                используя Lorem Ipsum для распечатки образцов. </div>
+        </div>
+    </div>
+
+    <div class="partners">
+        <div class="container">
+            <div class="partners__text">НАШИ ПАРТНЕРЫ</div>
+            <div class="partners__inner">
+                <img class="partners__images" src="images/partners.png" alt="">
+                <img class="partners__images" src="images/partners.png" alt="">
+                <img class="partners__images" src="images/partners.png" alt="">
+                <img class="partners__images" src="images/partners.png" alt="">
+                <img class="partners__images" src="images/partners.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__title-text">ОТЗЫВЫ О РАБОТЕ С НАМИ</div>
+            <div class="reviews__inner">
+
+                <div class="reviews__wrapper">
+                    <div class="reviews__block">
+                        <div class="reviews__block--item fas fa-quote-left"></div>
+                        <div class="reviews__block--text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров
+                            и форм шрифтов.
+                        </div>
+                    </div>
+                    <p class="reviews__subblock">Иванов Иван, <span class="reviews__subblock--end">ООО
+                            “Газпром-Арена”</span></p>
+                </div>
+
+                <div class="reviews__wrapper">
+                    <div class="reviews__block">
+                        <div class="reviews__block--item fas fa-quote-left"></div>
+                        <div class="reviews__block--text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров
+                            и форм шрифтов.
+                        </div>
+                    </div>
+                    <p class="reviews__subblock">Иванов Иван, <span class="reviews__subblock--end">ООО
+                            “Газпром-Арена”</span></p>
+                </div>
+
+                <div class="reviews__wrapper">
+                    <div class="reviews__block">
+                        <div class="reviews__block--item fas fa-quote-left"></div>
+                        <div class="reviews__block--text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров
+                            и форм шрифтов.
+                        </div>
+                    </div>
+                    <p class="reviews__subblock">Иванов Иван, <span class="reviews__subblock--end">ООО
+                            “Газпром-Арена”</span></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work">
+        <div class="container">
+            <div class="smart-projects__inner">
+                <div class="smart-projects__text">
+                    <h3 class="smart-projects__title-text">ХОТИТЕ С НАМИ РАБОТАТЬ?</h3>
+                    <h4 class="smart-projects__subtitle-text">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</h4>
+                </div>
+                <button class="smart-projects__btn" data-fancybox data-src="#modal" href="javascript:;">
+                    <div class="smart-projects__btn--item fas fa-envelope"></div>
+                    <div class="smart-projects__btn--text">ВАШ ЗАПРОС</div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts">
+        <div class="container">
+            <h5 class="contacts__title-text">КОНТАКТЫ</h5>
+            <div class="contacts__inner">
+
+                <div class="contacts__block">
+                    <div class="contacts__block--item far fa-map-marker-alt"></div>
+                    <div class="contacts__block--title-text">АДРЕС:</div>
+                    <div class="contacts__block--subtitle-text">НЕВСКИЙ ПРОСПЕКТ 140, ОФИС 140-142</div>
+                </div>
+
+                <div class="contacts__block">
+                    <div class="contacts__block--item far fa-phone"></div>
+                    <div class="contacts__block--title-text">ТЕЛЕФОН:</div>
+                    <div class="contacts__block--subtitle-text">8 (812) 111-22-33 <br> 8 (812) 111-22-33</div>
+                </div>
+
+                <div class="contacts__block">
+                    <div class="contacts__block--item far fa-clock"></div>
+                    <div class="contacts__block--title-text">ВРЕМЯ РАБОТЫ:</div>
+                    <div class="contacts__block--subtitle-text">ПН-СБ <br> 10:00 - 20:00</div>
+                </div>
+
+                <div class="contacts__block">
+                    <div class="contacts__block--item far fa-envelope"></div>
+                    <div class="contacts__block--title-text">E-MAIL:</div>
+                    <div class="contacts__block--subtitle-text" style="color: #F7654A;">INFO@VIP.RU</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__text">© 2019 Строительная компания</div>
+                <div class="footer__text">Разработано лучшей студей</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+
+    <div style="display: none;" id="modal">
+        <h2>Заполните необходимые поля</h2>
+        <form>
+            <input class="modal-window" type="text" placeholder="Ваш e-mail">
+            <textarea class="modal-window" placeholder="Ваш запрос"></textarea>
+            <input class="modal-window" type="submit">
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
